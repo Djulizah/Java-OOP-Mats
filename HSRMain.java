@@ -38,5 +38,7 @@ public class HSRMain {
         } else {
             System.out.println("Character database not yet initialized!");
         }
+
+        scan.close();
     }
 }
