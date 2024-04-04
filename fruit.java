@@ -1,4 +1,4 @@
-public class fruit {
+public class Fruit {
     int stock;
     
     public int getStock() {
@@ -17,13 +17,13 @@ public class fruit {
     }
 
     public static void main(String[] args) {
-        fruit apple = new fruit();
+        Fruit apple = new Fruit();
         apple.setStock(50);
 
-        fruit orange = new fruit();
+        Fruit orange = new Fruit();
         orange.setStock(75);
 
-        fruit wMelon = new fruit();
+        Fruit wMelon = new Fruit();
         wMelon.setStock(150);
 
         // Call stockStatus directly on each object

@@ -29,5 +29,4 @@ public class Circle {
         koinB.setRadius(25);
         System.out.println(koinB.getPerimeter());
     }
-    
 }

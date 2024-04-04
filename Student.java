@@ -9,7 +9,7 @@ public class Student {
     // menambahkan course
     public void addCourse(String courseName) {
         if (courses == null) {
-            courses = new ArrayList<>();
+            courses = new ArrayList<>();    //handling null arraylist
           }
         courses.add(courseName);
     }
