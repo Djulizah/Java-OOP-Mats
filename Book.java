@@ -1,8 +1,3 @@
-/*
-    Nama : Djulizah Bonita L.
-    NIM : H071211073
-*/
-
 class Book {
     private String name;
     private Author author;

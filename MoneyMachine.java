@@ -10,7 +10,7 @@ public class MoneyMachine {
         this.name = name;
     }
 
-    //nomor urut generator
+    //nomor urut generator dengan limit anatara 1-10
     int nomorUrut(){
         Random random = new Random();
         int nomor = random.nextInt(10);

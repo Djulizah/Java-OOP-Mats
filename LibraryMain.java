@@ -1,9 +1,4 @@
-/*
-    Nama : Djulizah Bonita L.
-    NIM : H071211073
-*/
-
-public class Main {
+public class LibraryMain {
     public static void main(String[] args) {
         
         //membuat author baru
