@@ -15,6 +15,9 @@ public class Buttons {
         playerhHandler.handleBtnTap(aim);
         playerhHandler.handleBtnTap(attack);
         playerhHandler.handleBtnTap(ult);
+
+        //gunanya eventHandler ialah, dia tdk perlu tau secara spesifik sub classnya,
+        //yang dimana ini salah satu penggunaan polymorph variables, satu(eventHandler) untuk banyak bentuk(many sub classes)
     }
 }
 
